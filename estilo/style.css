@@ -17,7 +17,7 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    
     font-family: var(--fonte1);
 }
 
@@ -58,9 +58,19 @@ section > p{
     
 }
 
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(26, 23, 23);
+    background-attachment: fixed;
+}
+
 section.imagem > p{
+    display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px black;
+    
+    
 }
 
 section#img01{
@@ -79,6 +89,7 @@ section#img02{
 
 .normal{
     background-color: white;
+    
     color: black;
 }
 
@@ -90,5 +101,11 @@ footer{
     padding: 10px;
 }
 footer > p{
+    color: darkgray;
+    
+}
+
+footer > p > a{
+    text-decoration: none;
     color: white;
 }
